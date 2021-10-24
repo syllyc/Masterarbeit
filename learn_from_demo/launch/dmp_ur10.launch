@@ -1,0 +1,11 @@
+<launch>
+    <!--load launch file 1-->>
+    <include file="$(find ur_gazebo)/launch/ur10.launch">
+        <arg name="limited" value="true"/>
+    </include>
+    <!--load launch file 2-->>
+    <include file="$(find ur10_moveit_config)/launch/ur10_moveit_planning_execution.launch">
+        <arg name="sim" value="true"/>
+        <arg name="limited" value="true"/>
+    </include>
+</launch>

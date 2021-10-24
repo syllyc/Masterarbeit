@@ -1,0 +1,8 @@
+<launch>
+    <!--load launch file 1-->>
+    <include file="$(find ur_gazebo)/launch/ur10.launch">
+        <arg name="limited" value="false"/>
+    </include>
+    <!--run joint state listener node-->>
+    <node pkg="learn_from_demo" type="joint_states_listener.py" name="joint_states_listener" output="screen" />
+</launch>

@@ -1,0 +1,26 @@
+# parameters to tune for DMP
+nb_Samples: 1  # Number of demonstrations
+nb_Data: 150   # Length of training data after resampling (interpolated training data) # 150
+KP: 50         # Stiffness gain
+# KV: 100        # Damping gain (with ideal underdamped damping ratio)
+alpha: 1       # Decay factor
+dt: 0.01       # Duration of time step
+nbStates: 8    # Number of activation function (i.e. number of States in the GMM)
+
+# Parameters for Finding Keypoints
+threshold_keypoint: 0.2  # threshold used for select keypoints: remove the keypoints locate too close
+threshold_goal: 0.005  # threshold for judging if the end position is close enough to the goal position
+                       # (handwriting data: 0.13; real data: 0.05)
+
+# load training data
+data_handwrite_path: 'data/2Dletters/G.mat'  # handwriting data
+data_handover_path: 'data/3D_data/movement2/data22.txt'  # handover data
+
+# save generate motion trajectory
+traj_gen_path: 'trajectory_gen/traj_gen_1.txt'  # path and name for generated motion trajectory
+
+# Note:
+# the new start and end position of generated motion trajectory can be set in the DMP_standard.py
+# Load handwritng or handover data can select in the main function in DMP_standard.py and DMP_Keypoints
+# When using the real data (get from openpose) use Kalman filter before model training (DMP_Keypoints line 290)
+# Dimension (x,y,z) of Keypoints found can be set in the function keypoint_finder in script Training_Traj_Preprocessor.py (line 219)

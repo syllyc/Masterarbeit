@@ -1,0 +1,19 @@
+# parameters to tune for DMP
+nb_Samples: 1  # Number of demonstrations
+nb_Data: 200   # Length of training data after resampling (interpolated training data)
+KP: 50         # Stiffness gain
+# KV: 100        # Damping gain (with ideal underdamped damping ratio)
+alpha: 1       # Decay factor
+dt: 0.01       # Duration of time step
+nbStates: 8    # Number of activation function (i.e. number of States in the GMM)
+
+goal_thresh: 0.001    # Threshold of Goal Position
+max_plan_length: 500  # Maximum Trajectory length (prevent System overshoot)
+
+# Parameters for Obstacle Avoidance
+#Gamma: 1000
+#Beta: 20/np.pi
+
+# load training data
+data_handwrite_path: '/home/syl/ROS_WorkSpaces/rosTuT_ws/src/learn_from_demo/data/2Dletters/A.mat'
+

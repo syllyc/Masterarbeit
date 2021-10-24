@@ -1,0 +1,15 @@
+/DMP_Python/For_testing.py
+/DMP_Python/For_testing2.py
+/DMP_Python/Prediction_Velocity_3d.py
+/DMP_Python/__pycache__
+/DMP_Python/.idea
+/DMP_Python/main_Class.py
+/DMP_Python/DMP_Class.py
+/DMP_Python/Synchronisation_Zeitreihen.py
+/learn_from_demo/launch/inverse_kinematic.launch
+/learn_from_demo/scripts/dmp/*.pyc
+/learn_from_demo/scripts/ur10/*.pyc
+/DMP_Python/kalman_filter_test.py
+/DMP_Python/kalman_filter_test2.py
+/DMP_Python/3D_simulation.py
+
