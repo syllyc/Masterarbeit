@@ -15,10 +15,11 @@ Detect human body parts and record the motion trajectory of the right wrist
 1. Inverse and Forwards Kinematic of UR10  
 2. UR10 execute the generated motion trajectory in ROS Gazebo
 
-## Demo: Pass the water glass to another person
-![image](https://github.com/syllyc/Masterarbeit/blob/master/demo_Masterthesis_Yangle_Shen.gif)
+## Demo: Pass the water glass to another person  
 1. Human motion capturing with 3D stereo camera and OpenPose  
 2. Modelling of the demonstrated motion  
 3. Motion planning through learned motion model  
-4.Robot imitate teacher's motion to complete tasks 
+4. Robot imitate teacher's motion to complete tasks 
+![image](https://github.com/syllyc/Masterarbeit/blob/master/demo_Masterthesis_Yangle_Shen.gif)
+
 
