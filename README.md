@@ -15,3 +15,6 @@ Detect human body parts and record the motion trajectory of the right wrist
 1. Inverse and Forwards Kinematic of UR10  
 2. UR10 execute the generated motion trajectory in ROS Gazebo
 
+## Demo:
+![image](https://github.com/syllyc/Masterarbeit/blob/master/demo_Masterthesis_Yangle_Shen.gif)
+
