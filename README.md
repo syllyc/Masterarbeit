@@ -20,6 +20,7 @@ Detect human body parts and record the motion trajectory of the right wrist
 2. Modelling of the demonstrated motion  
 3. Motion planning through learned motion model  
 4. Robot imitate teacher's motion to complete tasks 
+
 ![image](https://github.com/syllyc/Masterarbeit/blob/master/demo_Masterthesis_Yangle_Shen.gif)
 
 
